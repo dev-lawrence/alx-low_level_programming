@@ -10,8 +10,8 @@ int main(void)
 	int d;
 
 	for (d = '0'; d <= '9'; d++)
-	printchar(d);
-	printchar("\n");
+	putchar(d);
+	putchar("\n");
 
 	return (0);
 }
